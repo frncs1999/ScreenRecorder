@@ -4,10 +4,10 @@
  ## Description: 
  #### The Screen Recorder App, developed with ElectronJS, is capable of recording the chosen window of user and save it as a video file.
  ## Setup Instruction:
-   #### 1. git clone https://github.com/frncs1999/ScreenRecorder.git
-   #### 2. cd ScreenRecorder
-   #### 3. npm install
-   #### 4. npm start
+   <b>1. git clone https://github.com/frncs1999/ScreenRecorder.git <br>
+   2. cd ScreenRecorder<br>
+   3. npm install<br>
+   4. npm start<b>
  ## Screenshots:
  ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_01.png)
  ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_02.png)

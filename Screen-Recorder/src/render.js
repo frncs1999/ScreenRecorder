@@ -90,7 +90,7 @@ async function handleStop(e) {
 
     const { filePath } = await dialog.showSaveDialog({
         buttonLabel: 'Save video',
-        defaultPath: `Screen_Recorded_${d.getMonth()}-${d.getDate()}-${d.getFullYear()}_${d.getHours()}_${d.getMinutes()}_${d.getSeconds()}.webm`
+        defaultPath: `Screen_Recorded_${d.getMonth()+1}-${d.getDate()}-${d.getFullYear()}_${d.getHours()}-${d.getMinutes()}-${d.getSeconds()}.webm`
     })
 
     if (filePath) {

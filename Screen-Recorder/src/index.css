@@ -3,10 +3,16 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 video {
   width: 100%;
+  position: relative;
 }
 
 p {
@@ -15,6 +21,7 @@ p {
 
 h1 {
   text-align: left;
+  color: white;
 }
 body {
   text-align: center;

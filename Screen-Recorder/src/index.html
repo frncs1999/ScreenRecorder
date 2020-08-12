@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <p>
+    <button id="min" onclick="min()" class="btn btn-danger">-</button>
+    <button id="exit" class="btn btn-danger">X</button>
+    <h1 style="-webkit-app-region: drag">ELECTRON⚡<br> Screen Recorder</h1>
+    <br></p>
+    <video></video>
+    <br><br>
+    <button id="startBtn" class="btn btn-success btn-lg">START</button> &nbsp
+    <button id="stopBtn" class="btn btn-warning btn-lg">STOP</button>
+    <hr />
+    <button id="videoSelectBtn" class="btn btn-primary btn-lg">
+      Choose a Video Source
+    </button>
+    <script>
+    function min() {
+      const { remote } = require('electron')
+      remote.BrowserWindow.getFocusedWindow().minimize();
+    }
+    </script>
+  </body>
+</html>

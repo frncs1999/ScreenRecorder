@@ -9,5 +9,5 @@
    3. npm install electron --save<br>
    4. npm start<b>
  ## Screenshots:
- ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_01.png)
- ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_02.png)
+ ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_1.png)
+ ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_2.png)

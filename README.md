@@ -6,7 +6,7 @@
  ## Setup Instruction:
    <b>1. git clone https://github.com/frncs1999/ScreenRecorder.git <br>
    2. cd ScreenRecorder<br>
-   3. npm install<br>
+   3. npm install electron --save<br>
    4. npm start<b>
  ## Screenshots:
  ![](https://github.com/frncs1999/ScreenRecorder/blob/master/Screen-Recorder/ss_01.png)

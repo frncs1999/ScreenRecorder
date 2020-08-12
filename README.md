@@ -5,7 +5,7 @@
  #### The Screen Recorder App, developed with ElectronJS, is capable of recording the chosen window of user and save it as a video file.
  ## Setup Instruction:
    <b>1. git clone https://github.com/frncs1999/ScreenRecorder.git <br>
-   2. cd ScreenRecorder/ScreenRecorder<br>
+   2. cd ScreenRecorder/Screen-Recorder<br>
    3. npm install electron --save<br>
    4. npm start<b>
  ## Screenshots:
